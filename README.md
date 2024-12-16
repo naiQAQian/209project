@@ -1,10 +1,8 @@
-git add .
-git commit -m comment
-git push origin main
+### Code Attribution
 
+Part of the modl code (in modl folder) in this assignment is sourced from the following GitHub repository:
 
-files: TwoD_masking: create mask
-        view_mask: view_mask
-        unroll_xxx: unrolling network, output will be saved as npy files in a folder called results, the results will be saved as npy files in the folder, this is because the plt will not work for some reason so the visualization have to be done seperatly
-
-        save_test image: save images as tiff images in results to a folder
+- **Source**: [MoDL_PyTorch](https://github.com/bo-10000/MoDL_PyTorch)
+- **Author**: Bomin Kim 
+- **Referenced Section**: PyTorch implementation of MoDL: Model Based Deep Learning Architecture for Inverse Problems    
+- **Modifications**: Adjustments were made to adapt the code for this assignment, including data processing part to adapt our dataset.  
